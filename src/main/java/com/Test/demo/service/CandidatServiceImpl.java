@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 import com.Test.demo.entity.Candidat;
 import com.Test.demo.repository.CandidatRepository;
 
-import spring.esprit.tn.entity.User;
+
 
 
 
@@ -55,6 +55,13 @@ public class CandidatServiceImpl implements ICandidatService {
 		// TODO Auto-generated method stub
 		this.deleteCandidatById(id);
 	}
+
+	public Candidat updateCandidat(Candidat u) {
+		// TODO Auto-generated method stub
+		return candidatRepository.save(u);
+	}
+
+	
 	
 	
 

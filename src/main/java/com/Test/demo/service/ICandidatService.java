@@ -15,7 +15,7 @@ List<Candidat> retrieveAllCandidats();
 	
 	void deleteUser(String id);
 	
-	Candidat updateUser(Candidat u);
+	Candidat updateCandidat(Candidat u);
 	
 	Candidat retrieveCandidat(String id);
 	void deleteCandidatById(long id);
